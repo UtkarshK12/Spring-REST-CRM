@@ -48,7 +48,7 @@ public class CustomerRestController {
 	
 	// add customer
 	@PostMapping("/customers")
-	public Customer a+ 103 XPddCustomer(@RequestBody Customer theCustomer) {
+	public Customer addCustomer(@RequestBody Customer theCustomer) {
 		
 		theCustomer.setId(0);
 		
